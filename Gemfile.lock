@@ -8,7 +8,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (5.1.6.1)
+    activesupport (5.2.4.3)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
@@ -20,7 +20,7 @@ GEM
     commander-openflighthpc (1.1.0)
       highline (~> 1.7.2)
       paint (~> 2.1.0)
-    concurrent-ruby (1.1.4)
+    concurrent-ruby (1.1.6)
     diff-lcs (1.3)
     docile (1.3.1)
     dry-configurable (0.8.3)
@@ -56,11 +56,11 @@ GEM
       tty-config
     hashie (3.6.0)
     highline (1.7.8)
-    i18n (1.5.3)
+    i18n (1.8.2)
       concurrent-ruby (~> 1.0)
     json (2.1.0)
     method_source (0.9.0)
-    minitest (5.11.3)
+    minitest (5.14.1)
     network_interface (0.0.2)
     nodeattr_utils (1.1.0)
       flight_config (~> 0.2)
@@ -111,7 +111,7 @@ GEM
       unicode-display_width (~> 1.1, >= 1.1.1)
     thread_safe (0.3.6)
     tty-config (0.3.2)
-    tzinfo (1.2.5)
+    tzinfo (1.2.7)
       thread_safe (~> 0.1)
     unicode-display_width (1.4.0)
 
@@ -119,7 +119,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activesupport (~> 5.1.6)
+  activesupport (~> 5.2.4)
   bundler
   colorize
   commander-openflighthpc
